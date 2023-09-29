@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(100, 95, 95);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    
+    .center{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding:0 2% ;
+    }
+    
+    header{
+        
+        justify-content: space-between;
+        background-color: rgb(12, 12, 12);
+        box-shadow: 0 0 1rem;
+
+
+    }
+    
+    .logo{
+        height: 180px;
+        margin-left: -410px;
+        margin-top: -5px;    
+    }
+    
+   .letras1{
+    padding: auto;
+    color: rgb(172, 146, 3);
+    margin-left: 100px;
+    padding-top: 90px;
+   font-size: 17
+}
+
+   .letras2{
+    color: rgb(172, 146, 3);
+    margin-left: 220px;
+    position: relative;
+    top: -18px;
+    font-size: 17
+}
+
+.letras3{
+    color: rgb(172, 146, 3);
+    margin-left: 340px;
+    position: absolute;
+    margin-top: -35px;
+    font-size:17
+
+}
+    
+    .selection.sobre{
+        height: calc(100% - 200px) ;
+        position: relative;
+          
+    }
+    .extras{
+        position: relative;
+        bottom: 0;
+        right: 0;
+        width: 200px;
+        height:200px ;
+        background-color: blueviolet ;
+    }
+  .carro{
+    height: 500px;
+    margin-left: 700px;
+
+   }
+    
+   .auditraseira{
+    position: relative;
+    height: 399px;
+    margin-left: 270px;
+    position: relative;
+    margin-top: 50px;
+    
+    
+   }
+
+   .audifrente{
+    position: relative;
+    height: 399px;
+    margin-left: 10px;
+
+
+   }
+
+   .audiinterna{
+    position:relative ;
+    height: 399px;
+    margin-left: 450px;}
+
+
+
+   

@@ -1,0 +1,54 @@
+.imgCarros{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+
+}
+header{
+    width: 100%;
+    background-color: black;
+}
+
+.imgCarros img{
+    width: 95%;
+
+}
+
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+.menu{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+h3{
+    margin-top: 500px;
+    margin-left: -110px;
+    
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    bottom: 70px;
+    position: absolute;
+    height: 110px;
+    top: 820px;
+    left: -0px;
+    font-size: 20pt;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+#insta{
+    position: relative;
+    left: 800px;
+    top: -60px;
+    
+}
